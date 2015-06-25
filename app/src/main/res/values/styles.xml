@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+        <!-- Customize your theme here.
+    <style name="Splash" parent= "Theme.Light.NoTitleBar.Fullscreen"></style>
+    android:theme="@style/Theme.Light.NoTitleBar.Fullscreen"
+-->
+
+
+</resources>

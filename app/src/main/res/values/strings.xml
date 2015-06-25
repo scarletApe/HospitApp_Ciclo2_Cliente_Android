@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">HospitApp</string>
+    <string name="hint_nss">Número de Seguro Social</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_link_to_register">Ir a registro</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="btn_register">Registrar</string>
+    <string name="btn_link_to_login">Iniciar sesión</string>
+    <string name="chkActive">Activo</string>
+
+    <string name="action_settings">Action</string>
+    <string name="decripcion">Bienvenidos a HospitApp</string>
+    <string name="versión">Versión 1.0</string>
+    <string name="desarrollo"> MULTIXSOFT</string>
+    <string name="nss">Número de Seguro Social</string>
+    <string name="nombre"> Nombre</string>
+    <string name="apPaterno">Apellido Paterno</string>
+    <string name="direccion"> Dirección</string>
+    <string name="email">e-mail</string>
+    <string name="registro">Registro</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="agendar">Agendar una cita</string>
+    <string name="vercitas">Ver mis citas</string>
+    <string name="modificar">Modificar mis datos</string>
+    <string name="elegir"> Seleccione una opción: </string>
+    <string name="tareas"> TAREAS </string>
+    <string name="doctor"> Doctor </string>
+    <string name="horario"> Horario </string>
+    <string name="calendario"> calendario </string>
+    <string name="agendado"> Citas agendadas </string>
+    <string name="proximas"> Próximas Citas  </string>
+    <string name="cancelar"> Cancelar cita  </string>
+    <string name="dia"> Día  </string>
+    <string name="mes"> Mes  </string>
+    <string name="año"> Año  </string>
+    <string name="contrasena"> Contraseña  </string>
+    <string name="title_activity_consulta_citas_and_cancel">Consulta de Citas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_agendar_citas">Agendar Citas</string>
+
+</resources>

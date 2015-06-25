@@ -1,0 +1,198 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.satellite.controlhospitapp.AgendarCitasActivity"
+    android:id="@+id/ediTextFecha">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contenedorAgendador">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="240dp"
+                android:weightSum="1"
+                android:id="@+id/linearLayout">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white">
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center_horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Doctor   "
+                            android:id="@+id/textView9"
+                            android:textSize="20sp"
+                            android:textColor="@color/blue" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lblDoctorName"
+                            android:textSize="20sp"
+                            android:layout_gravity="right"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Elegir Fecha"
+                        android:id="@+id/btnFecha"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:background="@drawable/button_selector_blue"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="50dp" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Solicitar Cita"
+                        android:id="@+id/btnScheduleApp"
+                        android:background="@drawable/button_selector_blue"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lblHourSelected"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="171dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="3dp">
+
+                    <TextView
+                        android:layout_width="171dp"
+                        android:layout_height="wrap_content"
+                        android:text="Horarios Disponibles"
+                        android:id="@+id/lblCabeceraHorarios"
+                        android:textSize="20sp"
+                        android:background="@color/white"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/blue" />
+
+                    <ListView
+                        android:layout_width="173dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/listAvailableSchedule"
+                        android:headerDividersEnabled="false"
+                        android:choiceMode="singleChoice" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/contenedorDatos"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="53dp"
+                    android:layout_height="53dp"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/schedule" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="279dp"
+                    android:layout_height="155dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Día:"
+                        android:textSize="20sp"
+                        android:textColor="@color/blue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lblFechaAppointment"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hora:"
+                        android:id="@+id/textView12"
+                        android:textColor="@color/blue"
+                        android:textSize="20sp"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lblHoraAppointment"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Datos de la cita:"
+                    android:id="@+id/textView13"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/blue" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

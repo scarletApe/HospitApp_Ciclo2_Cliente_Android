@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.satellite.controlhospitapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PacientesActivity"
+            android:label="@string/registro" >
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/tareas" >
+        </activity>
+        <activity
+            android:name=".AgendarCita"
+            android:label="@string/agendar" >
+        </activity>
+        <activity
+            android:name=".CitasActivity"
+            android:label="@string/vercitas" >
+        </activity>
+        <activity
+            android:name=".ConsultaCitasAndCancelActivity"
+            android:label="@string/title_activity_consulta_citas_and_cancel" >
+        </activity>
+        <activity
+            android:name=".AgendarCitasActivity"
+            android:label="@string/title_activity_agendar_citas" >
+        </activity>
+    </application>
+
+</manifest>

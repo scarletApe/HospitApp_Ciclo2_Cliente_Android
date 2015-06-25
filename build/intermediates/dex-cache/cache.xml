@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/manuelmartinez/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/manuelmartinez/Documents/GitHub/ClienteMovilHospitApp/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-c6b88d874bbd8a92c0d0b0c5e87d11e1ca3ef91f.jar" />
+    </item>
+    <item
+        jar="/Users/manuelmartinez/Documents/GitHub/ClienteMovilHospitApp/app/libs/json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5">
+        <dex dex="/Users/manuelmartinez/Documents/GitHub/ClienteMovilHospitApp/app/build/intermediates/pre-dexed/debug/json-simple-1.1.1-03e34b11d09a1964c6e5252da19a44948b7a4c66.jar" />
+    </item>
+    <item
+        jar="/Users/manuelmartinez/Documents/GitHub/ClienteMovilHospitApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/manuelmartinez/Documents/GitHub/ClienteMovilHospitApp/app/build/intermediates/pre-dexed/debug/classes-aa66762b2e2000d641a5f7fcd8dde72e1d23563c.jar" />
+    </item>
+    <item
+        jar="/Users/manuelmartinez/Documents/GitHub/ClienteMovilHospitApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/manuelmartinez/Documents/GitHub/ClienteMovilHospitApp/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-69ac702eb6370815462b41c0bb07277785e9832b.jar" />
+    </item>
+    <item
+        jar="/Users/manuelmartinez/Documents/GitHub/ClienteMovilHospitApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/manuelmartinez/Documents/GitHub/ClienteMovilHospitApp/app/build/intermediates/pre-dexed/debug/classes-5c33334ad41072f15f4d9d54218571c77e0ebe9d.jar" />
+    </item>
+
+</items>
